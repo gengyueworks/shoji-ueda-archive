@@ -170,7 +170,7 @@ function renderGalleries() {
     const fc = document.createElement('article');
     fc.className = 'feed-card';
     fc.innerHTML = `
-      <img class="feed-card-img" src="images/${item.filename}" alt="植田正治作品" loading="lazy" onclick="openLightbox(${idx})" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/gengyueworks/shoji-ueda-archive/main/images/${item.filename}';">
+      <img class="feed-card-img" src="https://gengyueworks.github.io/photography-masters-gallery/masters/shoji-ueda/images/${item.filename}" alt="植田正治作品" loading="lazy" onclick="openLightbox(${idx})" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/gengyueworks/shoji-ueda-archive/main/images/${item.filename}';">
       <div class="feed-card-footer">
         <span style="font-family:var(--font-mono); color:var(--text-gold); font-weight:700;"># 植田正治</span>
         <span style="color:var(--text-muted); font-family:var(--font-mono);">${item.width}×${item.height}</span>
